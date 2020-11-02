@@ -1,9 +1,10 @@
 import { join } from 'lodash-es';
+import HelloWorld from './HelloWorld.vue';
 
 function component() {
   const element = document.createElement('div');
 
-  // Lodash, now imported by this script 
+  // Lodash, now imported by this script
   element.innerHTML = join(['Hello', 'webpack'], ' ');
 
   return element;

@@ -1,14 +1,10 @@
-### Step 5
+### Step 6
 
-Not going to go into depth here on "development" mode, but let's just turn it on and see what happens.
+Now we use a loader. Let's look at Vue-Loader. It's both very complicated as far as loaders go, but it also shows just how powerful Webpack can be. Vue-Loader enables Single File Components. If Webpack didn't have Loaders then single file components either wouldn't exist, or the Vue developers would go need to figure out how to compile JS, HTML, and CSS from SFCs.
 
-In `/webpack.config.js` we set Webpack to do it's business in dev mode. We could use:
 ```
-$ npx webpack --mode=development
+$ npm i -D vue-loader vue-template-compiler
+$ npx webpack
 ```
-but this way we get our first Webpack config file.
 
-Run `npx webpack` and then inspect `/dist`.
-
-Here's further reading on dev mode. It's how you, as an application developer, will spend the majority of your time so it's good to be well-acquainted with it.
-https://v4.webpack.js.org/guides/development/
+Did everything work?
