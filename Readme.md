@@ -10,3 +10,5 @@ $ npx webpack
 ```
 
 Look at the size of `/dist/main.js` now.
+
+If you understand what's happened from step 1 to here, you understand why Webpack exists.
