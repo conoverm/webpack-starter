@@ -17,7 +17,7 @@ swap:
 ```
 import _ from 'lodash';
 with:
-import { join } from 'lodash-es';
+import { join } from 'lodash';
 ```
 and:
 ```
