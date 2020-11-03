@@ -1,5 +1,5 @@
 import { join } from 'lodash-es';
-import HelloWorld from './HelloWorld.vue';
+// import HelloWorld from './HelloWorld.vue';
 
 function component() {
   const element = document.createElement('div');
