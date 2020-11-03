@@ -14,7 +14,7 @@ webpack-starter@1.0.0 /Users/matthew/webpack-intro/webpack-starter
   └── vue-style-loader@4.1.2
 ```
 
-`vue-style-laoder` is part of the `vue-loader` package, we don't have to explicitly list it in our project. It's the Vue team's fork of `style-loader`.
+`vue-style-loader` is part of the `vue-loader` package, we don't have to explicitly list it in our project. It's the Vue team's fork of `style-loader`.
 
 ```
 $ npm i -D css-loader
