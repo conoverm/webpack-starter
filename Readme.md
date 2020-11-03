@@ -27,7 +27,7 @@ And then:
 $ npx webpack
 ```
 
-Oh, no a new error. It's just not working! You probably got output like this:
+Oh no, a new error. It's just not working! You probably got output like this:
 ```
 $ npx webpack
 [webpack-cli] Compilation finished
