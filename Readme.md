@@ -5,7 +5,7 @@ Hey, `main.js` was big. Even though we imported join using destructuring we got 
 Here, we'll swap lodash from lodash-es, which means "Lodash using ES Modules", then rebuild the application.
 
 ```
-$ npm i
+$ npm ci
 $ npx webpack
 ```
 
