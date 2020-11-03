@@ -11,4 +11,6 @@ $ npx webpack
 
 Look at the size of `/dist/main.js` now.
 
-If you understand what's happened from step 1 to here, you understand core Webpack functionality.
+If you understand what's happened from step 1 to here, you understand core Webpack functionality. We had an application that rendered a simple component and used a JS library served from a CDN. What we have now is  an application that explicitly lists its requirements in package.json and creates a bundle with only the minimum amount of code needed for that application to run.
+
+That's Webpack.
