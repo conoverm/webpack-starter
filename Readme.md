@@ -2,7 +2,7 @@
 
 Hey, `main.js` was big. Even though we imported join using destructuring we got all of the lodash library anyway. That seriously bloated the application.
 
-Here, we'll swap lodash from lodash-es, which means "Lodash using ES Modules", then rebuild the application.
+Here, we'll swap lodash for lodash-es, which means "Lodash using ES Modules", then rebuild the application.
 
 ```
 $ npm ci
@@ -11,4 +11,4 @@ $ npx webpack
 
 Look at the size of `/dist/main.js` now.
 
-If you understand what's happened from step 1 to here, you understand why Webpack exists.
+If you understand what's happened from step 1 to here, you understand core Webpack functionality.
