@@ -1,10 +1,7 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
-  entry: [
-    './src/index.js',
-    // './src/HelloWorld.vue'
-  ],
+  entry: './src/index.js',
   module: {
     rules: [
       {
