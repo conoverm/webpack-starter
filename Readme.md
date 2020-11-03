@@ -1,6 +1,6 @@
 ### Step 9
 
-No, it really didn't have anything to do with Webpack. We just need to instantiate our Vue application and we're done.
+No, it really didn't have anything to do with Webpack. We need to instantiate our Vue application and we're done.
 
 In `/src/index.js` we add:
 ```
