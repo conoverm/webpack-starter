@@ -4,7 +4,7 @@ No! Nothing worked! We ran `npx webpack` and nothing happened. What's the deal, 
 
 Well, we added Vue-Loader, and the Vue component, but we never told Webpack to specifically look for that asset to bundle.
 
-The question here is: We didn't? How's that? The new Vue component is sitting in `/src` and Vue looks in `/src` for stuff to compile right?
+The question here is: We didn't? How's that? The new Vue component is sitting in `/src` and Webpack looks in `/src` for stuff to compile right?
 
 Yes and no. By default, Webpack looks for `/src/index.js` as the "entrypoint" for the application. Everything Webpack is going to compile needs to be referenced by `index.js` or by all nodes of `index.js`. That would be the "dependency graph".
 
