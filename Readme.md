@@ -7,7 +7,7 @@ $ npm i
 $ npx webpack
 ```
 
-Look in dist for `main.js`. Check at the size of our application.
+Look in dist for `main.js`. Check the size of our application.
 
 It's so large because we've imported the entire lodash library in `index.js`. We're only using `_.join`.
 
