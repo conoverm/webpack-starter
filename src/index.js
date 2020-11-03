@@ -13,3 +13,6 @@ function component() {
 
 document.body.appendChild(component());
 
+new Vue({
+  render: h => h(HelloWorld),
+}).$mount(`#vue`);

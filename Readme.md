@@ -1,19 +1,23 @@
-### Step 8
+### Step 9
 
-Let's get that CSS compiling in SFCs so we can wrap up.
+No, it really didn't have anything to do with Webpack. We just need to instantiate our Vue application and we're done.
 
+In `/src/index.js` we add:
 ```
-$ npm ci
-$ npm ls vue-style-loader
+new Vue({
+  render: h => h(HelloWorld),
+}).$mount(`#vue`);
 ```
 
-`vue-style-laoder` is part of the `vue-loader` package, we don't have to explicitly list it in our project.
-
+In `/dist/index.html` right after `<body>` we add:
 ```
-$ npm i -D css-loader
+    <div id="vue"></div>
+```
+
+then:
+```
 $ npx webpack
 ```
+Open `/dist/index.html` in a browser and you should see the original tiny "component" we started with and the new Vue application.
 
-This should have succeeded. Finally, let's look at `/dist/index.html`. Do we see the HelloWorld Vue component?
 
-Nope. Why? Does the reason have to do with Webpack?
