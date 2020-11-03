@@ -1,5 +1,5 @@
 <template>
-  <div class="example">{{ msg }}</div>
+  <h4 class="example">{{ msg }}</h4>
 </template>
 
 <script>
@@ -8,7 +8,7 @@ import Vue from 'vue';
 export default {
   data () {
     return {
-      msg: 'Hello world!'
+      msg: 'Hello world from Vue!'
     }
   }
 }

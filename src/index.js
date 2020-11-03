@@ -1,4 +1,5 @@
 import { join } from 'lodash-es';
+import Vue from 'vue';
 import HelloWorld from './HelloWorld.vue';
 
 function component() {
@@ -11,3 +12,4 @@ function component() {
 }
 
 document.body.appendChild(component());
+
